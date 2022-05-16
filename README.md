@@ -20,12 +20,12 @@ password: password
 ```
 Manager:
 ```
-username: [Manager]()@example.com
+username: manager@example.com
 password: password 
 ```
-User:
+Member:
 ```
-username: user@example.com
+username: member@example.com
 password: password 
 ```
 
