@@ -21,7 +21,7 @@ class PermissionSeeder extends Seeder
 		app()[PermissionRegistrar::class]->forgetCachedPermissions();
 		
 		// dashboard
-		Permission::create(['name' => 'view dashboard']);
+		Permission::create(['name' => 'view_dashboard']);
 		
 		// create demo user / password = password
 		$member = Role::create(['name' => 'member']);
@@ -33,7 +33,7 @@ class PermissionSeeder extends Seeder
 		
 		// create demo manager / password = password
 		$manager = Role::create(['name' => 'manager']);
-		$manager->givePermissionTo('view dashboard');
+		$manager->givePermissionTo('view_dashboard');
 		$user = User::factory()->create([
 			'name'  => 'Manager',
 			'email' => 'manager@example.com',
