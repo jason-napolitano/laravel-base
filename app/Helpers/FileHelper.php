@@ -5,7 +5,7 @@
     use Illuminate\Support\Facades\File;
 
     /**
-     * The file helper makes it easier to upload/remove files to/from 
+     * The file helper makes it easier to upload/remove images to/from 
      * the file server
      * 
      * @package App\Helpers
