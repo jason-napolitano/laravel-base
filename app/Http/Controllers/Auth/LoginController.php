@@ -14,7 +14,7 @@ use App\Http\Requests\Auth\LoginRequest;
 class LoginController extends Controller
 {
 	/**
-	 * Account logout page
+	 * Account login page
 	 *
 	 * @return \Inertia\Response
 	 */
@@ -25,7 +25,7 @@ class LoginController extends Controller
 	}
 	
 	/**
-	 * Account logout action
+	 * Account login action
 	 *
 	 * @param \App\Http\Requests\Auth\LoginRequest $request
 	 *
